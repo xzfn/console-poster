@@ -1,0 +1,26 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0400
+header_name {.h}
+code_name {.cxx}
+class Ui {open
+} {
+  Function {Ui()} {open
+  } {
+    Fl_Window m_window {
+      label {Console Poster} open selected
+      xywh {1031 192 256 526} type Double resizable visible
+    } {
+      Fl_Button m_load {
+        label Load
+        xywh {0 0 40 25}
+      }
+      Fl_Browser m_list {
+        xywh {0 25 255 480}
+      }
+      Fl_Input m_title {
+        label {Title:}
+        xywh {80 0 175 25}
+      }
+    }
+  }
+}
